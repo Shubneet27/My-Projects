@@ -1,0 +1,36 @@
+This HTML code creates a simple web page for an SVG Freehand Drawing Tool. It includes:
+A container with a heading (SVG Drawing Tool).
+An SVG element (<svg id="drawingArea">) where drawings will be made.
+A linked CSS file (style.css) for styling and a JavaScript file (script.js) for handling the drawing functionality.
+The HTML only sets up the structure; the actual drawing behavior is implemented in script.js.
+ 
+ HTML (Structure):
+
+The HTML file creates the layout of the drawing tool.
+A container holds the drawing tool area.
+Inside it, there is a heading "SVG Drawing Tool".
+An <svg> element is used as the drawing area where users can draw with the mouse.
+HTML here is only responsible for showing the structure of the page (title, heading, and drawing area).
+
+CSS (Styling):
+
+The CSS styles the page and drawing area.
+The body uses a simple font style.
+The container has a border, fixed width, and padding to neatly hold the drawing tool.
+The SVG drawing area has its own border, light background color, fixed size (560×400 pixels), and a crosshair cursor so users know they can draw there.
+CSS is only responsible for the look and layout of the tool.
+
+JavaScript (Functionality):
+
+JavaScript makes the drawing tool work.
+It detects mouse events (mousedown, mousemove, mouseup).
+When the user presses the mouse (mousedown), drawing starts, and a new SVG path is created.
+As the mouse moves (mousemove), new line segments are added to the path, making it look like freehand drawing.
+When the mouse is released (mouseup), drawing stops.
+JavaScript is responsible for the interactive behavior of drawing inside the SVG area.
+
+LEARNING OUTCOMES:-
+Understanding HTML structure for SVG graphics.
+Linking CSS and JavaScript to HTML for styling and interactivity.
+Using SVG as a drawing surface instead of <canvas>.
+Handling mouse events in JavaScript for interactivity.

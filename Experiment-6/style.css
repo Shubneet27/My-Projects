@@ -1,0 +1,18 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    border: 1px solid #444;
+    width: 600px;
+    padding: 10px;
+  }
+  
+  #drawingArea {
+    border: 1px solid #444;
+    background: #f9f9f9;
+    width: 560px;
+    height: 400px;
+    cursor: crosshair;
+  }
+  
