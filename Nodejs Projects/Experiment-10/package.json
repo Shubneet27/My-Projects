@@ -1,0 +1,8 @@
+{
+  "name": "experiment-11",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node index.js"
+  }
+}
