@@ -1,0 +1,54 @@
+HTML (Structure):
+
+HTML is used to create the structure of the webpage. In this project, HTML is used to make:
+A heading for the product list.
+A dropdown menu where the user can select a category (All, Clothing, Electronics, Books).
+A list of products, each product has a category assigned to it.
+HTML is only responsible for showing the content on the page.
+
+<!DOCTYPE html>: Tells the browser the page uses HTML5.
+<html lang="en">: Sets the page language to English.
+<meta charset="UTF-8">: Ensures correct text encoding (supports all characters).
+<meta name="viewport" content="width=device-width, initial-scale=1.0">: Makes the page responsive on all devices.
+<title>Product Filter</title>: Title of the webpage shown in the browser tab.
+<link rel="stylesheet" href="style.css">: Links an external CSS file for styling.
+<div class="product-box">: A container for all content.
+<h2>: Displays the heading "Product List".
+<label>: Describes the dropdown for accessibility.
+<select>: A dropdown menu for filtering products by category.
+id="category1": Unique ID for JavaScript to target.
+Options:
+"all" → Show all products
+"clothing", "electronics", "books" → Show specific category products.
+<div id="products1" class="product-list">: Container for all products.
+Each product:
+Uses <div class="product" data-category="...">.
+data-category is a custom HTML attribute storing the category (used in JavaScript for filtering).
+Example: "T-Shirt" → data-category="clothing".
+Links to an external JavaScript file (script.js) that will:
+Detect changes in the dropdown.
+Show/hide products based on the selected category.
+
+CSS (Styling):
+CSS is used to make the webpage look good. In this project, CSS is used to:
+Set background color and font style of the page.
+Add borders, padding, and spacing to the product box.
+Style the dropdown menu and labels.
+Give each product a neat box design with border, padding, margin, and rounded corners.
+CSS is only responsible for the design and appearance.
+
+JavaScript (Functionality):
+
+JavaScript is used to add interactivity. In this project, JavaScript:
+Reads the dropdown menu selection.
+Checks each product’s category.
+If the product matches the selected category, it is shown; otherwise, it is hidden.
+If "All" is selected, then all products are displayed.
+JavaScript is responsible for behavior and making the filter work.
+
+LEARNING OUTCOMES:_
+Understanding HTML Structure.
+Using Custom Attributes.
+Product Listing Design
+JavaScript learning
+Practical Skills

@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f9f9f9;
+    padding: 20px;
+  }
+  
+  .product-box {
+    border: 1px solid #555;
+    padding: 20px;
+    margin-bottom: 30px;
+    background: white;
+    border-radius: 5px;
+  }
+  
+  h2 {
+    margin-top: 0;
+    color: #333;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  select {
+    padding: 5px;
+    margin-bottom: 15px;
+  }
+  
+  .product-list {
+    margin-top: 10px;
+  }
+  
+  .product {
+    background: #fafafa;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 6px 0;
+    border-radius: 4px;
+  }
+  
