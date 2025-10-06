@@ -1,0 +1,28 @@
+his code creates a very simple, stylish banking interface for a website. When you open the page, you'll see a box in the center. Inside the box, it shows your current balance (which starts at 0 dollars). Below the balance, there are two buttons: one labeled "Deposit" and another labeled "Withdraw."
+
+Pressing the "Deposit" button (once the code is connected to functionality) would let you add money to your balance.
+
+Pressing "Withdraw" would let you take money out.
+
+The code uses some extra files:
+
+An external CSS file called styles.css to make the page look nice and responsive.
+
+The structure is organized into two sections—an "outer box" to center the content and an "inner box" that contains the balance and the two buttons.The web page background is set to a light grey color.
+
+The entire page content is centered both vertically and horizontally using Flexbox, so everything sits perfectly in the middle of the screen.
+
+The font for all text on the page is set to Arial or another sans-serif font for a clean, modern look.
+
+The outer box (the main container that holds everything) has a slightly transparent grey-purple background, rounded corners, and a soft shadow, giving it a “card” appearance.
+
+Inside the outer box, there is an inner box with a white background, rounded corners, padding for space, centered text, and a softer shadow, making it stand out from the outer box.
+
+Headings are styled larger with some color and extra spacing underneath.
+
+Buttons are given comfortable padding, no borders, rounded corners, and a pointer cursor when hovered over. Each button has its own color:
+
+Deposit button is green with white text, signaling a positive action.
+
+Withdraw button is red with white text, signaling caution or a removal action.
+
