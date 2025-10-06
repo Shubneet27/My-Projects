@@ -1,0 +1,16 @@
+This project demonstrates the concept of inheritance in JavaScript using ES6 classes. The program is divided into three files: HTML, CSS, and JavaScript.
+
+1. HTML File
+The HTML file provides the basic structure of the webpage. It contains a heading to introduce the demo and an empty section where the output will appear. It also links the CSS file for styling and the JavaScript file for logic.
+
+2. CSS File
+The CSS file is responsible for styling the webpage. It defines how the text, background, and layout look. Special card-style boxes are created to display information neatly. Different border colors are used to distinguish between student details (blue) and teacher details (green).
+
+3. JavaScript File
+The JavaScript file contains the logic of the program and shows how object-oriented programming works in JavaScript.
+First, a base class called Person is created. This class has common properties like a person’s name and age, and a method to display basic information.
+Next, two specialized classes are created: Student and Teacher. Both of these classes extend the Person class, which means they inherit the common features of Person but also have their own unique properties.
+The Student class includes an additional property such as the course a student is enrolled in.
+The Teacher class includes an additional property such as the subject they teach.
+Both Student and Teacher redefine the method that displays information. This is called method overriding, and it allows them to include their own specific details along with the common details from the Person class.
+Finally, the program creates one student and one teacher object. Their details are displayed inside styled cards on the webpage, making it easy to visualize how inheritance works.
