@@ -1,0 +1,102 @@
+<button id="themebutton">dark theme</button>
+<button> – Creates a clickable button the user can interact with.
+id="themebutton" – Gives the button an ID so JavaScript can find it easily.
+dark theme – Text shown on the button when the page loads.
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: white;
+    color: black;
+}
+font-family: Arial, sans-serif; – Uses Arial or a default sans-serif font for the text.
+margin: 0; – Removes default browser margin around the page.
+background-color: white; – White page background (light mode).
+color: black; – Default text color is black.header, footer {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+Applies the same style to <header> and <footer>.
+background-color: #4CAF50; – Green background.
+color: white; – White text.
+padding: 1em; – Spacing inside the elements.
+text-align: center; – Centers the text horizontally.
+display: block; – Makes the links full-width clickable blocks.
+padding: 8px; – Space inside the link for easier clicking.
+color: black; – Black text.
+text-decoration: none; – Removes default underline from links.
+.dark-mode – Class that will be applied to <body> when dark mode is active.
+Sets page background to almost black.
+Text color changes to white.
+A header at the top across the full width
+A navigation sidebar on the left
+A main content area on the right
+css
+* {
+    margin: 10px;
+    padding: 0;
+}
+Affects all elements.
+Gives everything a margin of 10px and removes padding.
+This adds spacing between sections, but also means there’s a gap around the edges of the page.
+Body as a Grid Contains css
+body {
+    display: grid;
+    grid-template-columns: auto auto;
+    height: 100vh;
+}
+The <body> becomes a grid with two columns.
+Both columns size automatically based on their content (auto auto).
+Height fills the entire viewport (100vh).
+Header
+css
+header {
+    grid-column: 1 / span 2;
+    height: 100px;
+    background-color: rgb(117, 228, 117);
+    border: 1px solid black;
+}
+Stretches across both grid columns (full width).
+Fixed height of 100px.
+Light green background and black border.
+Footer
+css
+footer {
+    grid-column: 1 / span 2;
+    height: 50px;
+    background-color: rgb(117, 228, 117);
+    border: 1px solid black;
+}
+Same idea as header — full width, fixed height (50px), green background.
+Navigation (<nav>)
+css
+nav {
+    border: 1px solid black;
+}
+Placed naturally in left column of the grid below the header.
+Has a simple black border.
+Main Content (<main>)
+css
+main {
+    border: 1px solid black;
+}
+Appears in the second column next to the navigation section.
+Also has a black border.
+Resulting Layout Structure
+Header and Footer span both columns.
+Nav and Main fill the middle section in two columns side by side.
+Overall page layout: header → content area (split into sidebar and main) → footer.
+Uses CSS Grid for column arrangement.
+Gives each section a border and background so the structure is visible.
+
+learning outcomes:-
+we learn how to use CSS Grid to create a structured page layout with multiple sections, specifically a two-column layout consisting of a sidebar and main content area.
+we understand how to use grid properties like grid-template-columns to define the column structure (e.g., two columns with automatic width or fixed widths).
+wesee how to make elements like the header and footer span across both columns using grid-column: 1 / span 2, enabling full-width sections above and below the two columns.
+we learn the importance of using height and spacing (margins, paddings) to visually separate sections in the grid layout.
+This teaches the basic visual page hierarchy common to admin dashboards: header → sidebar + main content → footer.
+The example familiarizes you with the CSS selectors you need to target layout elements (header, footer, nav, main) and how borders and background colors help reveal the grid structure while developing.
+we develop an appreciation of CSS Grid’s power as a two-dimensional layout system, letting you lay out rows and columns simultaneously (not just horizontally as with flexbox).
+we gain insight into how the grid container (body here) controls positioning of child elements and how spanning and column sizing affect the overall page design.
+Ultimately, we build foundational skills to create responsive, flexible, and visually organized web layouts using modern CSS Grid techniques essential for dashboards, blogs, and multi-column websites.
