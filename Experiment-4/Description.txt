@@ -1,0 +1,8 @@
+This code implements a simple character counter feature for a webpage using HTML, CSS, and JavaScript. The interface consists of a textarea where the user can type text, along with a live counter that displays the number of characters entered. The `oninput` event is used so that the count updates automatically whenever the text changes, whether through typing, deleting, or pasting.
+The core functionality is handled by the `showcount()` JavaScript function. It retrieves the value from the textarea, calculates its length, and updates the `<span>` element (`id="charcount"`) to reflect the current count. This ensures instant feedback without needing to reload or submit the page.
+Styling is applied with CSS to make the textarea responsive and visually clear. The textarea spans the full width of the container, has a fixed height for ease of use, and is spaced neatly from other elements. The character count is displayed in bold for better visibility, making the feature practical for forms, message boxes, or platforms with character limits.
+LERANING OUTCOME:-
+Understanding HTML Structure
+Learn how to structure a basic webpage using <!DOCTYPE html>, <head>, <body>, and elements like <textarea> and <div>.
+Inline and Internal CSS Styling
+Learn to apply styles such as width, height, margin, font properties, and alignment using internal CSS.

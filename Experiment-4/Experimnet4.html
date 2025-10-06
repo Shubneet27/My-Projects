@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <h1 style="text-align=center">
+        live character Counter
+    </h1>
+  <title>Character Counter</title>
+  <style>
+    textarea { width: 100%; height: 100px; }
+    #count { margin-top: 5px; font-family: sans-serif; }
+  </style>
+</head>
+<body>
+  <textarea id="text"></textarea>
+  <div id="count">Characters count : 0</div>
+
+  <script>
+    text.oninput = () => count.textContent = "Characters: " + text.value.length;
+  </script>
+</body>
+</html>
