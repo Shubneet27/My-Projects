@@ -1,0 +1,29 @@
+{
+  "name": "experiment-15",
+  "version": "1.0.0",
+  "description": "Node.js + Express + MongoDB e-commerce catalog (Experiment-15)",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js",
+    "seed": "node src/seed/seed-fixed.js"
+  },
+  "keywords": [
+    "express",
+    "mongoose",
+    "mongodb",
+    "ecommerce"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^4.21.2",
+    "mongoose": "^8.18.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}

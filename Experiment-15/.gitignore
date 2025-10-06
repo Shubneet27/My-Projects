@@ -1,0 +1,44 @@
+# Node.js dependencies
+/node_modules
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# dotenv environment variables
+.env
+
+# MongoDB database files (if accidentally created locally)
+/data/db
+/data/configdb
+*.bson
+*.lock
+
+# OS junk files
+.DS_Store
+Thumbs.db
+
+# Debug / coverage
+coverage
+.nyc_output
+
+# Build / dist outputs
+dist
+build
+.tmp
+
+# Editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
