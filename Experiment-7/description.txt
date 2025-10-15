@@ -1,0 +1,35 @@
+Experiment 7 – React Product Cards
+
+Objective:
+Create a simple React app that displays a list of products using reusable components and props.
+
+Overview:
+This experiment demonstrates building a small React interface composed of a parent list component and a reusable card component. The parent component renders a collection of products by mapping over an array and passing data to each card via props. Inline styles are used for quick presentation.
+
+Key Files:
+- src/App.jsx: Boots the app and renders the products list component.
+- src/productcard.jsx: Defines ProductCard (reusable UI) and ProductsList (maps products to cards).
+- src/App.css and other Vite boilerplate files.
+
+Tech Stack:
+- React (Vite scaffolding)
+- JavaScript (ES Modules)
+- ESLint (basic config)
+
+Features Demonstrated:
+- Component composition (parent-child relationship)
+- Passing data using props
+- Rendering lists with Array.map
+- Basic inline styling
+
+How to Run:
+1) Open a terminal in this folder.
+2) Install dependencies: npm install
+3) Start dev server: npm run dev
+4) Open the URL printed in the terminal (e.g., http://localhost:5173).
+
+Possible Extensions:
+- Load products from an API or JSON file
+- Add search/filter and sorting
+- Replace inline styles with CSS modules or a CSS framework
+- Add interactivity (e.g., add to cart, stock badges)
