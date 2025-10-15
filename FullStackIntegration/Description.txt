@@ -1,0 +1,5 @@
+This project is a real-time chat application built using React.js and Socket.IO. It allows multiple users to send and receive messages instantly without refreshing the page. The frontend is created with React, where users can enter their name and type a message. When a user sends a message, it is emitted to the server using Socket.IO, and the server broadcasts it to all connected clients. The messages are then displayed in real time in the chat window.
+
+The application uses React hooks such as useState to manage user input and chat messages, and useEffect to handle incoming messages from the server. The socket connection listens for “receive_message” events and updates the chat list dynamically. The listener is also removed when the component unmounts to prevent memory leaks. The UI is kept simple with basic CSS styling to make the chat easy to use.
+
+Overall, this project demonstrates how real-time communication works in web applications using WebSockets through Socket.IO and React for the user interface.
